@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytolang"
+version = "0.0.1"
+authors = [
+    { name="Mythical Forest Collective" },
+]
+description = "A very cursed package that attempts to make a generalised way to transpile Python to multiple programming languages, with our first goal being Lua 5.1!"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.10" # This will not be tested on older versions of Python by us, but if it works, by all means, go ahead and lower it!
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Mythical-Forest-Collective/PyToLang"
+"Bug Tracker" = "https://github.com/Mythical-Forest-Collective/PyToLang/issues"
